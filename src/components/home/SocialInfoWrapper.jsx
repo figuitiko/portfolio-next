@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaStackOverflow } from '
 
 const SocialInfoWrapper = () => {
   return (
-    <FlexWrapper flexDirection='row' justify='flex-start' align='flex-start' height='100%' width='100%'>
+    <FlexWrapper >
       <MainBoxInfo>
         <div className='flex flex-wrap justify-center items-center gap-4 p-4 rounded-2xl border gradient-shape border-cyan-50 border-opacity-5'>
           <a href='https://www.facebook.com/frankrenato.freeman.5' target='_blank' rel='noreferrer'>

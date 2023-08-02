@@ -42,6 +42,28 @@ body {
 .gradient-shape{
   background-image: linear-gradient(to bottom, #1f1e1e, #272626, #302f2f, #393838, #424141);
 }
+.wrapper-home{
+  @apply  min-w-[260px]  max-w-sm md:max-w-none md:w-[1000px] h-[100%] gap-6 items-center justify-center px-8;
+}
+.wrapper-home-inside{
+  @apply  w-full max-w-sm md:max-w-none md:w-[48%] h-[255px] gap-4 justify-between;
+}
+.block-home-first-line{
+  @apply min-w-[260px] w-full md:w-[48%] h-[260px] gap-8 p-8 justify-center items-center rounded-2xl ;
+}
+.block-home-inside-first-line{
+  @apply  w-full h-[20%] items-center ;
+}
+.block-home-inside-first-line-1{
+  @apply  w-[47%] h-[75%]  ;
+}
+.block-home-second-line{
+  @apply w-full md:w-[23%] h-[220px];
+}
+.block-home-second-line-1{
+  @apply w-full md:w-[48%] h-[220px];
+}
+
 .text-over-heading {
   @apply text-sm uppercase  text-[#7d7d7d] ;
 }
@@ -53,4 +75,13 @@ body {
 }
 .text-extra-small {
   @apply text-xs text-[#7d7d7d] ;
+}
+.info-client-block{
+  @apply  w-full md:w-[120px]  h-14 md:h-[140px] flex-row md:flex-col justify-center items-center gap-4 ;
+}
+.block-home-flex-wrapper{
+  @apply  flex-col;
+}
+.block-toggle-on-header {
+  @apply  hidden md:flex;
 }

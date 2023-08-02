@@ -1,16 +1,9 @@
 'use client'
 import componentsObj from '@/config/components'
 
-const GridWrapper = ({ flexDirection, arrOfShapes, width, height, gap, justify }) => {
-  const styleObj = {
-    flexDirection: flexDirection || 'row',
-    width: width || '28px',
-    height: height || '100%',
-    gap: gap || '4px',
-    justify: justify || 'flex-start'
-  }
+const GridWrapper = ({ arrOfShapes, classCustom }) => {
   return (
-    <div className='flex flex-wrap' style={styleObj}>
+    <div className={`flex flex-wrap gap-1 ${classCustom}`} >
       {
         (arrOfShapes && arrOfShapes.length > 0) && arrOfShapes.map((Shape, index) => {
           const { component, props } = Shape

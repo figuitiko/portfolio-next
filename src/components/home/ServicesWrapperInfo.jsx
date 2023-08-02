@@ -7,7 +7,7 @@ import { BiLogoMongodb, BiLogoNodejs, BiLogoWordpress, BiLogoRedux, BiLogoTypesc
 
 const ServicesWrapperInfo = () => {
   return (
-    <FlexWrapper flexDirection='row' justify='flex-start' align='flex-start' height='100%' width='100%'>
+    <FlexWrapper>
       <MainBoxInfo gap ='gap-4'>
         <IoLogoJavascript className='text-4xl text-cyan-50' />
         <FaReact className='text-4xl text-cyan-50' />

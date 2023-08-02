@@ -5,11 +5,11 @@ import FooterBoxInfo from './FooterBoxInfo'
 
 const ProjectsWrapper = () => {
   return (
-    <FlexWrapper flexDirection='row' justify='flex-start' align='flex-start' height='100%' width='100%'>
+    <FlexWrapper >
       <MainBoxInfo>
         <div className='flex flex-col justify-center items-center'>
-          <h3 className='uppercase text-slate-50/70 text-2xl font-bold'>My Works</h3>
-          <picture className='top-4 left-[30%] z-20  mx-auto mt-[-15px] overflow-hidden'>
+          <h3 className='uppercase text-slate-50/70 text-xl md:text-2xl font-bold'>My Works</h3>
+          <picture className='top-4 left-[30%] z-20  mx-auto mt-[-10px]  md:mt-[-15px] overflow-hidden'>
             <Image src='/images/works.png' alt='My Works' width={80} height={80} className='object-cover h-full w-full' />
           </picture>
         </div>

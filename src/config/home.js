@@ -14,12 +14,7 @@ const homeConfig =
     {
       component: 'CommonShape',
       props: {
-        width: '48%',
-        height: '260px',
-        padding: '2rem',
-        gap: '2rem',
-        alignItems: 'center',
-        justify: 'center',
+        classCustom: 'block-home-first-line',
         children: (
           <PictureWrapper />
         )
@@ -29,16 +24,12 @@ const homeConfig =
       component: 'GridWrapperInside',
       props: {
         width: '48%',
-        height: '255px',
-        gap: '1rem',
-        justify: 'space-between',
+        classCustom: 'wrapper-home-inside',
         arrOfShapes: [
           {
             component: 'CommonShape',
             props: {
-              width: '100%',
-              height: '20%',
-              alignItems: 'center',
+              classCustom: 'block-home-inside-first-line',
               children: (
                <MarqueeText text = 'latest work and featured, projects' />
               )
@@ -47,8 +38,7 @@ const homeConfig =
           {
             component: 'CommonShape',
             props: {
-              width: '47%',
-              height: '75%',
+              classCustom: 'block-home-inside-first-line-1',
               children: (
               <SignatureWrapper />
               )
@@ -57,8 +47,7 @@ const homeConfig =
           {
             component: 'CommonShape',
             props: {
-              width: '47%',
-              height: '75%',
+              classCustom: 'block-home-inside-first-line-1',
               children: (
                <ProjectsWrapper />
               )
@@ -70,8 +59,7 @@ const homeConfig =
     {
       component: 'CommonShape',
       props: {
-        width: '23%',
-        height: '220px',
+        classCustom: 'block-home-second-line',
         children: (
           <ContactInfoWrapper />
         )
@@ -80,8 +68,7 @@ const homeConfig =
     {
       component: 'CommonShape',
       props: {
-        width: '48%',
-        height: '220px',
+        classCustom: 'block-home-second-line-1',
         children: (
           <ServicesWrapperInfo />
         )
@@ -90,8 +77,7 @@ const homeConfig =
     {
       component: 'CommonShape',
       props: {
-        width: '23%',
-        height: '220px',
+        classCustom: 'block-home-second-line',
         children: (
           <SocialInfoWrapper />
         )
@@ -100,8 +86,7 @@ const homeConfig =
     {
       component: 'CommonShape',
       props: {
-        width: '48%',
-        height: '220px',
+        classCustom: 'block-home-second-line-1',
         children: (
           <InfoClients />
         )
@@ -110,8 +95,7 @@ const homeConfig =
     {
       component: 'CommonShape',
       props: {
-        width: '48%',
-        height: '220px',
+        classCustom: 'block-home-second-line-1',
         padding: '0',
         children: (
         <CallToActions />

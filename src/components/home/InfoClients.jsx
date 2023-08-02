@@ -3,8 +3,8 @@ import CommonShape from '../share/CommonShape'
 
 const InfoClients = () => {
   return (
-    <div className='flex gap-4 justify-center items-center w-full h-full'>
-      <CommonShape borderRadio='16px' width='120px' height='140px' padding='16px' gap='4px' flexDirection='column' justify={'center'} alignItems={'center'}>
+    <div className='flex flex-col md:flex-row  gap-4 justify-center items-center w-full h-full'>
+      <CommonShape classCustom='info-client-block'>
         <h3 className='text-3xl font-bold mt-4'>
           12
         </h3>
@@ -12,7 +12,7 @@ const InfoClients = () => {
           years of <br/> experience
         </p>
       </CommonShape>
-      <CommonShape borderRadio='16px' width='120px' height='140px' padding='16px' gap='4px' flexDirection='column' justify={'center'} alignItems={'center'}>
+      <CommonShape classCustom='info-client-block'>
       <h3 className='text-3xl font-bold mt-4'>
           +50
         </h3>
@@ -20,7 +20,7 @@ const InfoClients = () => {
          Clients <br/> Worldwide
         </p>
       </CommonShape>
-      <CommonShape borderRadio='16px' width='120px' height='140px' padding='16px' gap='4px' flexDirection='column' justify={'center'} alignItems={'center'}>
+      <CommonShape classCustom='info-client-block'>
       <h3 className='text-3xl font-bold mt-4'>
          +60
         </h3>
