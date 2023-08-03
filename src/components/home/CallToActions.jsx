@@ -5,7 +5,7 @@ import { BiArrowToRight } from 'react-icons/bi'
 const CallToActions = () => {
   return (
     <>
-      <picture className='absolute w-[80px] h-[100px] mt-[-12px] dark:hidden'>
+      <picture className='absolute w-[80px] h-[100px] mt-[-26px] dark:hidden'>
         <Image src='/images/isignia.png' alt='cta-bg' layout='fill' />
       </picture>
       <div className='flex  justify-center items-center mt-auto w-full'>
