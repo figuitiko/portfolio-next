@@ -9,14 +9,14 @@ const ServicesWrapperInfo = () => {
   return (
     <FlexWrapper>
       <MainBoxInfo gap ='gap-4'>
-        <IoLogoJavascript className='text-4xl text-cyan-50' />
-        <FaReact className='text-4xl text-cyan-50' />
-        <BiLogoRedux className='text-4xl text-cyan-50' />
-        <BiLogoTypescript className='text-4xl text-cyan-50' />
-        <BiLogoMongodb className='text-4xl text-cyan-50' />
-        <BiLogoNodejs className='text-4xl text-cyan-50' />
-        <BiLogoWordpress className='text-4xl text-cyan-50' />
-        <BiLogoPhp className='text-4xl text-cyan-50' />
+        <IoLogoJavascript className='text-4xl text-cyan-50 dark:text-slate-700' />
+        <FaReact className='text-4xl text-cyan-50 dark:text-slate-700' />
+        <BiLogoRedux className='text-4xl text-cyan-50 dark:text-slate-700' />
+        <BiLogoTypescript className='text-4xl text-cyan-50 dark:text-slate-700' />
+        <BiLogoMongodb className='text-4xl text-cyan-50 dark:text-slate-700' />
+        <BiLogoNodejs className='text-4xl text-cyan-50 dark:text-slate-700' />
+        <BiLogoWordpress className='text-4xl text-cyan-50 dark:text-slate-700' />
+        <BiLogoPhp className='text-4xl text-cyan-50 dark:text-slate-700' />
       </MainBoxInfo>
       <FooterBoxInfo url='/services' textInfo='what I do' textLink='Services Offering' />
     </FlexWrapper>

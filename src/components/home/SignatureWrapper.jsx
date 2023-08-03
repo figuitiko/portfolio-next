@@ -7,7 +7,7 @@ const SignatureWrapper = () => {
   return (
       <FlexWrapper>
         <MainBoxInfo>
-          <LuClipboardSignature className='text-7xl text-slate-50/70' />
+          <LuClipboardSignature className='text-7xl text-slate-50/70 dark:text-slate-700' />
         </MainBoxInfo>
         <FooterBoxInfo url='/about' textInfo='More about me' textLink='Credentials' />
       </FlexWrapper>

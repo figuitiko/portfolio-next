@@ -11,7 +11,7 @@ const FooterBoxInfo = ({ url, textInfo, textLink }) => {
         </div>
         <div className='ml-auto flex  items-end justify-end'>
           <Link href={ url}>
-            <BiArrowToRight className='text-2xl md:text-4xl text-slate-50/70' />
+            <BiArrowToRight className='text-2xl md:text-4xl text-slate-50/70 dark:text-slate-700' />
           </Link>
         </div>
       </div>
