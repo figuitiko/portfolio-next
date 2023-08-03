@@ -11,7 +11,7 @@ const SocialInfoWrapper = () => {
   return (
     <FlexWrapper >
       <MainBoxInfo>
-        <div className={`flex flex-wrap justify-center items-center gap-4 p-4 rounded-2xl  border-cyan-50 border-opacity-5 ${theme === 'light' ? 'gradient-shape' : 'bg-gradient-to-r from-slate-400 to-slate-200'}  `}>
+        <div className={`flex flex-wrap justify-center items-center gap-4 p-4 rounded-2xl  border-cyan-50 border-opacity-5 ${(theme === 'light' || !theme) ? 'gradient-shape' : 'bg-gradient-to-r from-slate-400 to-slate-200'}  `}>
           <a href='https://www.facebook.com/frankrenato.freeman.5' target='_blank' rel='noreferrer'>
             <FaFacebook className='text-4xl text-cyan-50 dark:text-slate-700' />
           </a>
