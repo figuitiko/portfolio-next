@@ -19,7 +19,7 @@ export default function RootLayout ({ children }) {
           <ProviderTheme attribute='class' defaultTheme='system' enableSystem>
             <DarkModeButton />
            <Header />
-            <main className='flex h-full w-full md:h-[calc(100vh-400px)] flex-col items-center justify-center px-4'>
+            <main className='flex h-full w-full  flex-1 flex-col items-center justify-center px-4'>
                 {children}
             </main>
         <Footer />
