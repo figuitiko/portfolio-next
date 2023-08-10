@@ -4,9 +4,7 @@ import aboutConfig from '@/config/about'
 
 const About = () => {
   return (
-    <div className='flex flex-col justify-center items-center w-full'>
-    <GridWrapper arrOfShapes={aboutConfig} classCustom='wrapper-home' />
-  </div>
+    <GridWrapper arrOfShapes={aboutConfig} classCustom='wrapper-home overflow-x-hidden animate-in fade-in duration-1000 animate-twice ease-in' />
   )
 }
 

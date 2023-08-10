@@ -1,8 +1,8 @@
 import CustomExperience from '@/components/about/CustomExperience'
-import PictureAboutWrapper from '@/components/about/PictureAboutWrapper'
 import ContactInfoWrapper from '@/components/home/ContactInfoWrapper'
 import ServicesWrapperInfo from '@/components/home/ServicesWrapperInfo'
 import SocialInfoWrapper from '@/components/home/SocialInfoWrapper'
+import PictureWrapperShare from '@/components/share/PictureWrapperShare'
 
 const experiences = [
   {
@@ -56,7 +56,7 @@ const aboutConfig = [
     props: {
       classCustom: 'block-about-first-line',
       children: (
-        <PictureAboutWrapper />
+        <PictureWrapperShare imgName='perfil2.jpeg' width={200} height={200} />
       )
     }
   },

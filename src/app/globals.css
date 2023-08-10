@@ -102,6 +102,9 @@ body {
 .block-about-last-line {
   @apply  w-full h-[300px]
 }
+.block-project-first-line{
+  @apply  w-auto h-auto;
+}
 .custom-scrollbar::-webkit-scrollbar {
   width: 3px;
   height: 3px;
@@ -119,4 +122,11 @@ body {
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #7878a3;
+}
+
+.wrapper-home-projects-left {
+  @apply  w-full md:w-[28%]  p-6;
+}
+.wrapper-home-projects-right {
+  @apply  w-full md:w-[65%]  p-6;
 }
