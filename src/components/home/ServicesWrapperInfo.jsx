@@ -13,10 +13,10 @@ const ServicesWrapperInfo = () => {
         <FaReact className='text-4xl text-cyan-50 dark:text-blue-600' />
         <BiLogoRedux className='text-4xl text-cyan-50 dark:text-blue-600' />
         <BiLogoTypescript className='text-4xl text-cyan-50 dark:text-blue-600' />
-        <BiLogoMongodb className='text-4xl text-cyan-50 dark:text-blue-600' />
         <BiLogoNodejs className='text-4xl text-cyan-50 dark:text-blue-600' />
-        <BiLogoWordpress className='text-4xl text-cyan-50 dark:text-blue-600' />
+        <BiLogoMongodb className='text-4xl text-cyan-50 dark:text-blue-600' />
         <BiLogoPhp className='text-4xl text-cyan-50 dark:text-blue-600' />
+        <BiLogoWordpress className='text-4xl text-cyan-50 dark:text-blue-600' />
       </MainBoxInfo>
       <FooterBoxInfo url='/services' textInfo='what I do' textLink='Services Offering' />
     </FlexWrapper>
