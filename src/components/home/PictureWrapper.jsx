@@ -5,7 +5,7 @@ const PictureWrapper = () => {
   return (
     <>
     <picture className='flex justify-center w-1/2 h-full aspect-w-1 aspect-h-1 overflow-hidden'>
-      <Image src="/images/perfil2.jpeg" alt="hero" width={220} height={220} className='rounded-tl-lg rounded-br-lg object-cover' />
+      <Image src="/images/perfil2.jpeg" alt="hero" width={220} height={220} className='rounded-tl-lg rounded-br-lg object-cover' priority={true} />
     </picture>
     <div className='flex flex-col w-1/2'>
       <span className='text-over-heading'>

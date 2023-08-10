@@ -5,7 +5,7 @@ const ExperienceItem = ({ experience }) => {
   return (
     <div className='flex flex-col'>
       <span className='text-[#7d7d7d]'>{years}</span>
-      <h3 className='text-lg font-bold'>{title}</h3>
+      <h3 className='text-lg font-bold dark:text-blue-600'>{title}</h3>
       <p className='text-smaller'>{subTitle}</p>
     </div>
   )

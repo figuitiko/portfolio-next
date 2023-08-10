@@ -43,9 +43,9 @@ body {
     justify-content: center;
     min-height:  100vh;
 }
-.gradient-shape{
+/* .gradient-shape{
   background-image: linear-gradient(to bottom, #1f1e1e, #272626, #302f2f, #393838, #424141);
-}
+} */
 .wrapper-home{
   @apply  min-w-[260px]  max-w-sm md:max-w-none md:w-[1000px] h-[100%] gap-6 items-center justify-center px-8;
 }
@@ -130,3 +130,10 @@ body {
 .wrapper-home-projects-right {
   @apply  w-full md:w-[65%]  p-6;
 }
+.gradient-light {
+  @apply  bg-gradient-to-r from-slate-100 to-slate-50;
+}
+
+/* .gradient-shape {
+  @apply  bg-gradient-to-r from-black via-slate-900 to-neutral-800;
+} */

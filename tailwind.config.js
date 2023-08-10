@@ -12,7 +12,11 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'gradient-shape': 'linear-gradient(to bottom, #1f1e1e, #272626, #302f2f, #393838, #424141)'
+        'gradient-shape': 'linear-gradient(to bottom, #1f1e1e, #272626, #302f2f, #393838, #424141)',
+        'gradient-shape-light': 'linear-gradient(to bottom, #1f1e1e, #272626, #302f2f, #393838, #424141)'
+      },
+      backgroundColor: {
+        'bg-shape': 'linear-gradient(to bottom, #1f1e1e, #272626, #302f2f, #393838, #424141)'
       },
       fontFamily: {
         liberationRegular: 'LiberationSans-Regular',
@@ -20,6 +24,11 @@ module.exports = {
         liberationItalic: 'LiberationSans-Italic',
         liberationBoldItalic: 'LiberationSans-BoldItalic'
       }
+    }
+  },
+  variants: {
+    extend: {
+      backgroundImage: ['dark']
     }
   },
   plugins: [
