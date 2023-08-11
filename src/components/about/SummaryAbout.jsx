@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCanadianMapleLeaf, FaReacteurope } from 'react-icons/fa'
+import { FaCanadianMapleLeaf, FaReact } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io'
 import { BiLogoMongodb, BiLogoNodejs, BiLogoWordpress, BiLogoRedux, BiLogoTypescript, BiLogoPhp } from 'react-icons/bi'
 import CommonShape from '../share/CommonShape'
@@ -15,7 +15,7 @@ const SummaryAbout = () => {
       <CommonShape classCustom={'w-full h-full md:h-[80%] flex-col justify-end'}>
         <div className='flex gap-2 mb-auto'>
           <IoLogoJavascript className='text-2xl text-center  text-yellow-400 animate-bounce running' />
-          <FaReacteurope className='text-2xl text-center  text-cyan-300 animate-bounce running' />
+          <FaReact className='text-2xl text-center  text-cyan-300 animate-bounce running' />
           <BiLogoRedux className='text-2xl text-center  text-red-500 animate-bounce running' />
           <BiLogoTypescript className='text-2xl text-center  text-blue-500 animate-bounce running' />
           <BiLogoNodejs className='text-2xl text-center  text-green-300 animate-bounce running' />

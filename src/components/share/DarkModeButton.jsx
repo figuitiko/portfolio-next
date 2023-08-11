@@ -8,6 +8,7 @@ const DarkModeButton = () => {
 
   useEffect(() => {
     setMounted(true)
+    return () => setMounted(false)
   }, [])
 
   if (!mounted) {
