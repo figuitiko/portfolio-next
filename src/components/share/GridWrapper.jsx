@@ -4,7 +4,7 @@ import { FaCanadianMapleLeaf } from 'react-icons/fa'
 
 const GridWrapper = ({ arrOfShapes, classCustom, heading }) => {
   return (
-    <div className={`flex flex-wrap gap-1 ${classCustom}`} >
+    <div className={`flex flex-wrap gap-1 overflow-hidden ${classCustom}`} >
       {
         heading && (<h2 className=' text-xl md:text-5xl uppercase w-full text-center dark:text-slate-500 animate-in fade-in duration-1000 animate-twice ease-in'>
           <FaCanadianMapleLeaf className='inline-block mr-2' />
