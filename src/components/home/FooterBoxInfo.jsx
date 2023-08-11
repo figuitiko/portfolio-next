@@ -26,7 +26,7 @@ const FooterBoxInfo = ({ url, textInfo, textLink, isExternal, isLinkable = false
               </LinkComponent>
               )
             : (
-              <BiArrowToRight className='text-2xl md:text-4xl text-slate-50/70 dark:text-slate-700' />
+              <BiArrowToRight className='text-2xl md:text-4xl text-slate-50/70 dark:text-slate-700 dark:hidden' />
               )
         }
         </div>
