@@ -137,10 +137,13 @@ body {
   @apply justify-center items-center gap-4 w-[70px] h-[70px];
 }
 .wrapper-contact {
-  @apply justify-start gap-8
+  @apply justify-start gap-8 w-[1000px]
 }
 .social-contact {
   @apply  rounded-full  w-[70px] h-[70px] flex justify-center items-center;
+}
+.contact-form-wrapper {
+  @apply  flex-1 h-auto min-h-[400px] flex-col justify-center items-center p-12;
 }
 /* .gradient-shape {
   @apply  bg-gradient-to-r from-black via-slate-900 to-neutral-800;

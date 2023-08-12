@@ -3,7 +3,7 @@ import contactConfig from '@/config/contact'
 
 const Contact = () => {
   return (
-    <GridWrapper arrOfShapes={contactConfig} classCustom='wrapper-home wrapper-contact' />
+    <GridWrapper arrOfShapes={contactConfig} classCustom='wrapper-contact' />
   )
 }
 

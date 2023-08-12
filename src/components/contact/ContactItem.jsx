@@ -7,12 +7,18 @@ const contactIcons = {
   marker: <FaMapMarker className='text-4xl dark:text-blue-600' />
 }
 
-const ContactItem = ({ icon, heading, subtitles }) => {
+const ContactItem = ({ icon, heading, subtitles, href }) => {
   return (
     <div className='flex gap-4'>
       <CommonShape classCustom={'contact-item'}>
         {
-          contactIcons[icon]
+          href
+            ? (
+              <a href={href} target='_blank' rel='noreferrer'>
+                {contactIcons[icon]}
+              </a>
+              )
+            : contactIcons[icon]
         }
       </CommonShape>
         <div className='flex flex-col  justify-center'>

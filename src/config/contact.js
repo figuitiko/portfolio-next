@@ -1,3 +1,5 @@
+import ContactForm from '@/components/contact/ContactForm'
+
 const contactConfig = [
   {
     component: 'ContactListItems'
@@ -5,9 +7,9 @@ const contactConfig = [
   {
     component: 'CommonShape',
     props: {
-      classCustom: 'block-home-first-line',
+      classCustom: 'contact-form-wrapper',
       children: (
-       <h3>testing</h3>
+       <ContactForm />
       )
     }
   }

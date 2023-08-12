@@ -6,8 +6,8 @@ import { FaLinkedin, FaGithub, FaStackOverflow } from 'react-icons/fa'
 const ContactListItems = () => {
   return (
     <div className='flex flex-col gap-8 max-w-[30%]'>
-      <ContactItem icon='envelope' heading='Mail Me' subtitles={['frankfigao@gmail.com']} />
-      <ContactItem icon='phone' heading='Contact me' subtitles={['+52 246-106-2041']} />
+      <ContactItem icon='envelope' heading='Mail Me' subtitles={['frankfigao@gmail.com']} href={'mailto:frankfigao@gmail.com?subject=Hello%20World&body=Hi%20there,%20I%20wanted%20to%20reach%20out%20to%20you.%20'} />
+      <ContactItem icon='phone' heading='Contact me' subtitles={['+52 246-106-2041']} href={'tel:++522461062041'}/>
       <ContactItem icon='marker' heading='location' subtitles={['México']} />
       <div className='flex flex-wrap gap-4 mt-8'>
         <CommonShape classCustom={'social-contact'}>
