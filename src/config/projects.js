@@ -44,7 +44,7 @@ export const rightSide = [
       classCustom: 'block-about-first-line block-project-first-line',
       children: (
         <ProjectItem
-          imgName='Ip-tracker.png'
+          imgName='ip-tracker.png'
           width={200} height={220}
           textInfo={'Ip tracker'}
           isClickAble={true}
