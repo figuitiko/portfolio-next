@@ -24,11 +24,11 @@ export const lefSide = [
       classCustom: 'block-about-first-line block-project-first-line',
       children: (
         <ProjectItem
-          imgName='ofl.png'
+          imgName='works.png'
           width={200} height={220}
-          textInfo={'Ofl Website'}
+          textInfo={'Sports Blog'}
           isClickAble={true}
-          url ={'http://oflcorp.com/'}
+          url ={'https://monchi-blog.vercel.app/'}
           isExternal={true}
           isLinkable = {false}
           />
@@ -95,11 +95,11 @@ export const rightSide = [
       classCustom: 'block-about-first-line block-project-first-line',
       children: (
         <ProjectItem
-          imgName='works.png'
+          imgName='juntas-podemos.png'
           width={200} height={220}
-          textInfo={'Sports Blog'}
+          textInfo={'Juntas Podemos App'}
           isClickAble={true}
-          url ={'https://monchi-blog.vercel.app/'}
+          url ={'https://play.google.com/store/apps/details?id=io.ionic.inpi.juntasPodemmos'}
           isExternal={true}
           isLinkable = {false}
           />
