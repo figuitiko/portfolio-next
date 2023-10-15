@@ -10,6 +10,7 @@ export const lefSide = [
           imgName='acygp.png'
           width={200} height={220}
           textInfo={'Acygp Website'}
+          textStatus={'Ready'}
           isClickAble={true}
           url ={'https://acygp.com/'}
           isExternal={true}
@@ -27,6 +28,7 @@ export const lefSide = [
           imgName='works.png'
           width={200} height={220}
           textInfo={'Sports Blog'}
+          textStatus={'In Progress'}
           isClickAble={true}
           url ={'https://monchi-blog.vercel.app/'}
           isExternal={true}
@@ -44,6 +46,7 @@ export const lefSide = [
           imgName='rick-morty.png'
           width={200} height={220}
           textInfo={'Rick and Morty'}
+          textStatus={'Ready'}
           isClickAble={true}
           url ={'https://rick-morty-sigma-one.vercel.app/'}
           isExternal={true}
@@ -64,6 +67,7 @@ export const rightSide = [
           imgName='ipTracker.png'
           width={200} height={220}
           textInfo={'Ip tracker'}
+          textStatus={'Ready'}
           isClickAble={true}
           url ={'https://figuitiko.github.io/ip-tracker/'}
           isExternal={true}
@@ -81,6 +85,7 @@ export const rightSide = [
           imgName='age-calculator.png'
           width={200} height={220}
           textInfo={'Age Calculator'}
+          textStatus={'Ready'}
           isClickAble={true}
           url ={'https://figuitiko.github.io/age-calculator/'}
           isExternal={true}
@@ -98,6 +103,7 @@ export const rightSide = [
           imgName='inpit-chatbot.png'
           width={200} height={220}
           textInfo={'INPI Menstrual Calculator'}
+          textStatus={'Ready'}
           isClickAble={true}
           url ={'https://chatbot-inpi.com/'}
           isExternal={true}
@@ -115,6 +121,7 @@ export const rightSide = [
           imgName='juntas-podemos.png'
           width={200} height={220}
           textInfo={'Juntas Podemos App'}
+          textStatus={'In Progress'}
           isClickAble={true}
           url ={'https://play.google.com/store/apps/details?id=io.ionic.inpi.juntasPodemmos'}
           isExternal={true}
@@ -132,6 +139,7 @@ export const rightSide = [
           imgName='react-challenges.png'
           width={200} height={220}
           textInfo={'React Challenges'}
+          textStatus={'In Progress'}
           isClickAble={true}
           url ={'https://react-challennges.vercel.app/'}
           isExternal={true}
