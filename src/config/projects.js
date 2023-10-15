@@ -34,6 +34,23 @@ export const lefSide = [
           />
       )
     }
+  },
+  {
+    component: 'CommonShape',
+    props: {
+      classCustom: 'block-about-first-line block-project-first-line',
+      children: (
+        <ProjectItem
+          imgName='rick-morty.png'
+          width={200} height={220}
+          textInfo={'Rick and Morty'}
+          isClickAble={true}
+          url ={'https://rick-morty-sigma-one.vercel.app/'}
+          isExternal={true}
+          isLinkable = {false}
+          />
+      )
+    }
   }
 ]
 
@@ -100,6 +117,23 @@ export const rightSide = [
           textInfo={'Juntas Podemos App'}
           isClickAble={true}
           url ={'https://play.google.com/store/apps/details?id=io.ionic.inpi.juntasPodemmos'}
+          isExternal={true}
+          isLinkable = {false}
+          />
+      )
+    }
+  },
+  {
+    component: 'CommonShape',
+    props: {
+      classCustom: 'block-about-first-line block-project-first-line',
+      children: (
+        <ProjectItem
+          imgName='react-challenges.png'
+          width={200} height={220}
+          textInfo={'React Challenges'}
+          isClickAble={true}
+          url ={'https://react-challennges.vercel.app/'}
           isExternal={true}
           isLinkable = {false}
           />
