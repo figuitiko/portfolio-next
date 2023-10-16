@@ -121,7 +121,7 @@ export const rightSide = [
           imgName='juntas-podemos.png'
           width={200} height={220}
           textInfo={'Juntas Podemos App'}
-          textStatus={'In Progress'}
+          textStatus={'Ready'}
           isClickAble={true}
           url ={'https://play.google.com/store/apps/details?id=io.ionic.inpi.juntasPodemmos'}
           isExternal={true}
