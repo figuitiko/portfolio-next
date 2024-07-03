@@ -9,7 +9,7 @@ const contactIcons = {
 
 const ContactItem = ({ icon, heading, subtitles, href }) => {
   return (
-    <div className='flex gap-4'>
+    <div className='flex gap-4 w-fit'>
       <CommonShape classCustom={'contact-item'}>
         {
           href

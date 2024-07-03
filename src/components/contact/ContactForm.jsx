@@ -7,7 +7,7 @@ const ContactForm = () => {
   const { register, handleSubmit, errors, onSubmit, isLoading } = useContactForm()
 
   return (
-    <div className='flex flex-col w-full py-2'>
+    <div className='flex flex-col w-full '>
       <h3 className='text-2xl font-semibold  dark:text-blue-600 my-2 '>Contact Form</h3>
       {isLoading
         ? (
