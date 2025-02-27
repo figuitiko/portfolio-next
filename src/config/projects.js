@@ -7,12 +7,12 @@ export const lefSide = [
       classCustom: 'block-about-first-line block-project-first-line',
       children: (
         <ProjectItem
-          imgName='acygp.png'
+          imgName='educatec.png'
           width={200} height={220}
-          textInfo={'Acygp Website'}
+          textInfo={'Instituto Educatec website'}
           textStatus={'Ready'}
           isClickAble={true}
-          url ={'https://acygp.com/'}
+          url ={'https://www.instituto-educatec.org/'}
           isExternal={true}
           isLinkable = {false}
           />
@@ -100,12 +100,12 @@ export const rightSide = [
       classCustom: 'block-about-first-line block-project-first-line',
       children: (
         <ProjectItem
-          imgName='inpit-chatbot.png'
+          imgName='dashboard.png'
           width={200} height={220}
-          textInfo={'INPI Menstrual Calculator'}
+          textInfo={'bets dashboard'}
           textStatus={'Ready'}
           isClickAble={true}
-          url ={'https://chatbot-inpi.com/'}
+          url ={'https://cut-betting.vercel.app/dashboard'}
           isExternal={true}
           isLinkable = {false}
           />
@@ -118,12 +118,12 @@ export const rightSide = [
       classCustom: 'block-about-first-line block-project-first-line',
       children: (
         <ProjectItem
-          imgName='juntas-podemos.png'
+          imgName='xocen.png'
           width={200} height={220}
-          textInfo={'Juntas Podemos App'}
-          textStatus={'Ready'}
+          textInfo={'Xocen Birding website'}
+          textStatus={'In progress'}
           isClickAble={true}
-          url ={'https://play.google.com/store/apps/details?id=io.ionic.inpi.juntasPodemmos'}
+          url ={'https://xocen-next.vercel.app'}
           isExternal={true}
           isLinkable = {false}
           />
